@@ -1,0 +1,42 @@
+
+Les fonctions addition , soustraction , multiplication seront paramétrables par l'utilisateur, 
+
+il fournira d'abord en paramètre le nombre des matrices sur lesquelles on appliquera ces opérations arithmétiques.
+
+Puis il lui sera demandé de saisir les noms des  fichiers  dans l'ordre contenant les matrices creuses vu que généralement
+
+la multiplation et la soustraction ne sont pas commutatives .
+
+Ces fonctions seront en mesure d'appliquer la multiplication , l'addition et la soustraction sur  plusieurs matrices
+
+selon les règles arithmétiques matricielles. Ces fonctions généront automatiquement le résultat des calculs sur
+
+un fichier qui sera retourné au demandeur.
+
+La fonction matrice_carre aura seulement en paramètre le nom du fichier.
+
+Elle calculera le produit de la matrice par elle-même. Le résultat sera stocké dans un fichier et retourné à l'utilisateur.
+
+
+La fonction scalaire_x_matrice sera paramétrable par l'utilisateur. Elle sera dotée de deux paramètres :
+
+la valeur du scalaire et le nom du fichier de la matrice creuse concerné. Cette fonction fera le produit de la matrice par le scalaire et le résultat sera stocké dans un fichier qui sera retourné à l'utilisateur.
+
+La fonction "transposée" est aussi paramétrable par l'utilisateur.
+
+Ce dernier fournira à la fonction le nom du fichier de la matrice. "transposée" calculera alors la transposée de la matrice passée en paramétre et le résultat sera retourné au demandeur sous format fichier.
+
+La fonction produit_transposee_matrice calculera le produit entre la matrice et sa transposée. 
+
+Cette fonction auhttps://github.com/newra en  paramètre le nom du fichier de la matrice et l'ordre respective des 
+
+facteurs de la multiplication qui sera de type string. Par exemple si l'utlisateur met en paramètre "tm" 
+
+(avec bien sûr l'autre paramètre le nom du fichier) signifera si on lit de la gauche à la droite que la matrice sera 
+
+précédée par sa transposée lors de l'opération de la multiplication. Le résultat sera retourné sous format de fichier. 
+
+Juste une précision concernant le nom du fichier. Celui-ci signifie le chemin de l'endroit du fichier enregistré. 
+
+Ce chemin contiendra en dernière position le nom du ficher.
+
