@@ -1,12 +1,3 @@
 Cahier des charges : 
 Matrice de très grande taille
-
-1	Présentation du projet
-
-	1.1	Contexte
-
-Le projet de développement d'une bibliothèque gérant des matrices de très grande taille pouvant être utilisées dans diverses applications s'inscrit dans le cadre du cours génie logiciel qui se découpe en 6 séances de TP de 3h.
-
-	1.2	Objectifs
-
-Il s'agit de développer un composant logiciel permettant de manipuler des matrices de très grande tailles , dont la taille  dépasse significativement les capacités de représentation dans la mémoire de l'ordinateur supportés par les types classiques. Ces matrices peuvent être utilisées  dans les applications très diverses, effectivement servir de calcul scientifique ou de traitement d'image par exemple. On développera une librairie supportant les opérations arithmétiques élémentaires, des opérations d'entrées sorties(fichier/consoles et éventuellement graphique) et des calculs matriciels .
+//vous devez rajouter le cahier de charge final une fois pret.
